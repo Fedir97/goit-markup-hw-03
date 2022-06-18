@@ -1,0 +1,141 @@
+:root {
+    --main-color: #E5E5E5;
+    --additional-color: #2196F3;
+    --type-color: #212121;
+    --mini-calor: #757575;
+    --phone-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--type-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --header-- */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    color: var(--additional-color);
+
+}
+
+.logo-header {
+    color: var(--type-color);
+}
+
+.linkers {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--type-color);
+
+}
+
+.linkers-studio {
+    color: var(--additional-color);
+
+}
+
+.information .linkers:hover {
+    color: var(--additional-color);
+
+}
+
+.mail-link {
+    font-size: 14px;
+    Line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--mini-calor);
+
+}
+
+.mail-link:hover {
+    color: var(--additional-color);
+}
+
+/* --1section-- */
+
+
+button.current {
+    font-size: 16px;
+    line-height: 1.6;
+    Letter-spacing: 0.03em;
+    color: var(--type-color);
+    font-weight: 500;
+    font-family: inherit;
+    outline: none;
+}
+
+.information .current {
+    color: var(--additional-color);
+}
+
+button.current:hover {
+    cursor: pointer;
+    background-color: var(--additional-color);
+    color: white;
+}
+
+
+.goods {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--type-color);
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--mini-calor);
+}
+
+/* --footer-- */
+footer {
+    background-color: var(--phone-color);
+}
+
+.logo-footer {
+    color: white;
+}
+
+.contacts2 {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    Fill: Solid;
+}
+
+.link1 {
+
+    color: var(--main-color);
+
+}
+
+.link2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.contacts2 a:hover {
+    color: var(--additional-color)
+}
