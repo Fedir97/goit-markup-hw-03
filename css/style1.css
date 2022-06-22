@@ -4,12 +4,15 @@
     --type-color: #212121;
     --mini-calor: #757575;
     --phone-color: #2F303A;
+    --card-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2), 1px 0px 1px (0, 0, 0, 0.14),
+        3px 0px 1px rgba(0, 0, 0, 0.12);
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: var(--type-color);
+    margin: 0;
 }
 
 li {
@@ -26,7 +29,16 @@ a {
 
 }
 
-/*Conteiner*/
+/*List*/
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+/*Container*/
 
 .container {
     width: 100%;
@@ -34,10 +46,9 @@ a {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
 }
 
-/*Heder*/
+/*Header*/
 .logo1 {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -46,7 +57,8 @@ a {
     vertical-align: top;
     letter-spacing: 0.03em;
     color: var(--additional-color);
-    padding-left: 215px;
+    margin-left: 215px;
+    margin-top: 24px;
 }
 
 .logo-accent {
@@ -72,7 +84,7 @@ section {
 
 .site-nav .item {
     margin-right: 50px;
-    display: block;
+    margin-top: 32px;
 }
 
 .site-nav .item:last-child {
@@ -80,9 +92,6 @@ section {
 }
 
 .site-nav .link-info {
-    display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
     color: var(--type-color);
 }
 
@@ -93,8 +102,6 @@ section {
     letter-spacing: 0.02em;
     color: var(--additional-color);
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
 }
 
 .site-nav .link-info:hover {
@@ -115,13 +122,15 @@ section {
     padding-bottom: 21px;
 }
 
+/*Contacts*/
 .contacts {
     display: flex;
-    margin-left: 215px;
+    margin-left: 331px;
 }
 
 .contacts .points {
     margin-right: 50px;
+    margin-top: 32px;
 }
 
 .contacts .points:last-child {
@@ -132,25 +141,21 @@ section {
     color: var(--additional-color);
 }
 
-/*Section*/
+/*Герой*/
 .hero {
     text-align: center;
     background-color: var(--phone-color);
-    width: 1600px;
     height: 600px;
 }
 
 .hero-title {
     font-size: 44px;
     line-height: 1.4;
-    line-height: 0.73;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: white;
-    padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
-
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 
@@ -162,12 +167,14 @@ section {
     cursor: pointer;
     outline: none;
     border: 32px;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: white;
     font-weight: 700;
-    padding: 10px 10px 10px 10px;
-    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .btn:hover {
@@ -196,12 +203,13 @@ section {
     margin-right: 0px;
 }
 
-.link {
+.banner {
     font-size: 14px;
     line-height: 1.11;
     letter-spacing: 0.03em;
     color: var(--type-color);
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 
@@ -216,7 +224,12 @@ section {
 .photos {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.work-photos {
+    margin-right: 30px;
 }
 
 .work {
@@ -226,6 +239,7 @@ section {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--type-color);
+    margin-bottom: 92px;
 }
 
 .team {
@@ -237,6 +251,27 @@ section {
     color: var(--type-color);
 }
 
+/*Card-set*/
+.card-set {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    max-width: 100%;
+}
+
+.memebers {
+    border-radius: 4px solid;
+}
+
+.card-set .company {
+    margin-left: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -244,6 +279,7 @@ section {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--type-color);
+    margin-top: 30px;
 }
 
 .job {
@@ -254,11 +290,13 @@ section {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--mini-calor);
+    margin-top: 10px;
 }
 
 /*footer*/
 footer {
     background-color: var(--phone-color);
+    padding: 60px 0 62px 0;
 }
 
 .logo1 {
@@ -269,7 +307,6 @@ footer {
     vertical-align: top;
     letter-spacing: 0.03em;
     color: var(--additional-color);
-
 }
 
 .logo-mainer {
@@ -282,6 +319,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 20px;
 
 }
 
@@ -291,6 +329,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 
 }
 
