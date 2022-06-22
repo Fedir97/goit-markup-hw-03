@@ -48,7 +48,7 @@ a {
 /*Container*/
 
 .container {
-    width: 100%;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -80,6 +80,7 @@ section {
 .main-nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .site-nav {
@@ -109,6 +110,15 @@ section {
     display: block;
 }
 
+/*Logo-links*/
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
 .site-nav .link-info:hover {
     color: var(--additional-color);
     background-color: transparent;
@@ -128,7 +138,6 @@ section {
 /*Contacts*/
 .contacts {
     display: flex;
-    margin-left: 331px;
 }
 
 .contacts .points {
@@ -252,15 +261,16 @@ section {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--type-color);
+    margin-bottom: 50px;
 }
 
 /*Card-set*/
 .card-set {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 0;
-    max-width: 100%;
+
+    width: 1200px;
 }
 
 .memebers {
