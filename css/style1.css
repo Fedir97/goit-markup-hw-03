@@ -345,5 +345,6 @@ footer {
 }
 
 .information a:hover {
+
     color: var(--additional-color);
 }
