@@ -15,6 +15,13 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
 li {
     list-style-type: none;
 }
@@ -57,7 +64,6 @@ a {
     vertical-align: top;
     letter-spacing: 0.03em;
     color: var(--additional-color);
-    margin-top: 24px;
 }
 
 .logo-accent {
@@ -83,7 +89,7 @@ section {
 
 .site-nav .item {
     margin-right: 50px;
-    margin-top: 32px;
+
 }
 
 .site-nav .item:last-child {
@@ -117,8 +123,6 @@ section {
     color: var(--mini-calor);
     text-decoration: none;
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
 }
 
 /*Contacts*/
@@ -129,7 +133,6 @@ section {
 
 .contacts .points {
     margin-right: 50px;
-    margin-top: 32px;
 }
 
 .contacts .points:last-child {
@@ -145,6 +148,10 @@ section {
     text-align: center;
     background-color: var(--phone-color);
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-title {
@@ -153,8 +160,7 @@ section {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: white;
-    margin-top: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -170,10 +176,8 @@ section {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: white;
     font-weight: 700;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+    height: 48px;
+    width: 200px;
 }
 
 .btn:hover {
