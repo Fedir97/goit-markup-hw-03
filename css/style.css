@@ -198,13 +198,14 @@ button.current:hover {
     margin-left: calc(-1* var(--card-set-gap));
     margin-top: calc(-1* var(--card-set-gap));
     margin-bottom: 94px;
-
 }
 
 .cards-type .about-cards {
     flex-basis: calc(100%/3 -30px);
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 img {
