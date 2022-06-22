@@ -30,13 +30,12 @@ a {
 
 .list-portfolio {
     padding: 0;
-    margin: 0;
     list-style: none;
 }
 
 /*Container*/
 .container {
-    width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -58,9 +57,26 @@ a {
     color: var(--type-color);
 }
 
+/*Header*/
+
+.page-head {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+}
+
 /*Nav*/
 .additional-nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Logo-ref*/
+
+.logo-ref {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -76,7 +92,6 @@ a {
 
 .contacts-list {
     display: flex;
-    margin-left: 331px;
 }
 
 .mail-nav {
@@ -131,7 +146,7 @@ a {
 .btn-list .button-type {
     margin-left: 8px;
     margin-bottom: 50px;
-    margin-top: 94px;
+    margin-top: 90px;
 }
 
 button.current {
@@ -190,7 +205,6 @@ button.current:hover {
     flex-basis: calc(100%/3 -30px);
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
-    border: 1px solid #EEEEEE;
 }
 
 img {
@@ -226,6 +240,7 @@ img {
 }
 
 /* --footer-- */
+
 footer {
     background-color: var(--phone-color);
     height: 252px;
@@ -239,12 +254,16 @@ footer {
     vertical-align: top;
     letter-spacing: 0.03em;
     color: var(--additional-color);
-    margin-left: 215px;
 
 }
 
 .logo-footer {
     color: white;
+}
+
+.page-reference {
+    justify-content: left;
+    margin-bottom: 9px;
 }
 
 .contacts2 {
@@ -253,7 +272,7 @@ footer {
     text-align: left;
     vertical-align: top;
     letter-spacing: 0.03em;
-    Fill: Solid;
+    margin-bottom: 20px;
 }
 
 .link1 {
@@ -262,9 +281,6 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    margin-bottom: 20px;
-    margin-left: 215px;
-
 }
 
 .link2 {
@@ -274,12 +290,10 @@ footer {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
-    margin-left: 215px;
-
 }
 
-.contacts2 a:hover {
-    color: var(--additional-color)
+.contacts2 {
+    margin-bottom: 20px;
 }
 
 .contacts2 a:hover {
