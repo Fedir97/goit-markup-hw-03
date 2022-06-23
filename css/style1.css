@@ -58,6 +58,7 @@ a {
 /*Header*/
 .logo1 {
     font-family: 'Raleway', sans-serif;
+    font-style:normal;
     font-size: 26px;
     line-height: 1.17;
     vertical-align: top;
