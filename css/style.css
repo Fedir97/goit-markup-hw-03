@@ -60,6 +60,10 @@ a {
 }
 
 /*Header*/
+.page-head {
+    border-bottom: 1px;
+
+}
 
 /*Nav*/
 .additional-nav {
@@ -250,7 +254,6 @@ img {
 
 footer {
     background-color: var(--phone-color);
-    height: 252px;
     padding: 60px 0;
 }
 
