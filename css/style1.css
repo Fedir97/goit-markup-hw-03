@@ -33,7 +33,13 @@ a {
 .page-header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 /*List*/
@@ -48,7 +54,7 @@ a {
 /*Container*/
 
 .container {
-    width: 100%;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -58,7 +64,6 @@ a {
 /*Header*/
 .logo1 {
     font-family: 'Raleway', sans-serif;
-    font-style:normal;
     font-size: 26px;
     line-height: 1.17;
     vertical-align: top;
@@ -154,14 +159,16 @@ a {
 
 /*Герой*/
 .hero {
+    width: 1600px;
+    height: 600px;
     padding: 200px 0;
     text-align: center;
     background-color: var(--phone-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-image: url(../image/background.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../image/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -229,6 +236,8 @@ a {
 }
 
 .description {
+    width: 270px;
+    height: 75px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -245,9 +254,6 @@ a {
 .photos {
     display: flex;
     width: 100%;
-    justify-content: center;
-
-
 }
 
 .work-photos {
@@ -269,6 +275,11 @@ a {
 }
 
 /*Команда*/
+.members {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .card-style {
     padding-top: 30px;
@@ -294,9 +305,7 @@ a {
 /*Card-set*/
 .card-set {
     display: flex;
-    justify-content: center;
     padding: 0;
-
 }
 
 
@@ -306,6 +315,7 @@ a {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-left: 30px;
+    background-color: #FFFFFF;
     background-color: #FFFFFF;
 }
 
@@ -339,8 +349,8 @@ a {
 
 footer {
     background-color: var(--phone-color);
-    padding: 60px 0 62px 0;
-    height: 252px;
+    padding: 60px 0;
+
 }
 
 .information {
