@@ -61,7 +61,8 @@ a {
 
 /*Header*/
 .page-head {
-    border-bottom: 1px;
+    border-bottom: 1px solid #ECECEC;
+
 
 }
 
@@ -88,6 +89,10 @@ a {
 .information .ref {
     margin-right: 50px;
 
+}
+
+.information .ref:last-child {
+    margin-right: 0;
 }
 
 .contacts-list {
